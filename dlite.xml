@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project Harkka">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/Juuso/git/java/TripleJ/trunk/Dlite.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="dLiteGUI.Paaikkuna"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="C:/Users/Juuso/git/java/TripleJ/trunk/bin"/>
+            <fileset dir="C:/Users/Juuso/git/java/Ohj2Demot/ohj2jars"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Juuso/git/java/Ohj2Demot/ohj2jars/gui.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+        </jar>
+    </target>
+</project>

@@ -1,0 +1,27 @@
+!https://trac.cc.jyu.fi/projects/ohj2ht/wiki/k2014/suunnitelmat/TripleJ = Suunnitelma Wikiss‰
+kuvat/paaikkuna.jpg = ohjelman p‰‰ikkuna (k‰sin piirretty)
+kuvat/paaikkuna_windowbuilder.jpg = ohjelman p‰‰ikkuna WindowBuilderill‰ tehtyn‰
+kuvat/LisaaKappale.png = kappaleen lis‰ys ikkuna
+kuvat/Dlite_kaavio.png = Kuva tietorakenteesta
+teksti/CRC.txt = crc taulut.
+Dlite.jar = .jar tiedosto
+src/dLiteGUI/Paaikkuna.java = p‰‰ikkuna WindowBuilderilla
+src/dLiteGUI/AddWindow.java = Biisin lis‰yksen ikkuna
+src/dLiteGUI/OpenWindow.java = Kirjaston avausikkuna
+src/dLiteGUI/DliteSwing.java = Swing luokka
+src/dLiteGUI/Artist.java = Artist luokka
+src/dLiteGUI/Artists.java = Artists luokka
+src/dLiteGUI/Genre.java = Genre luokka
+src/dLiteGUI/Genres.java = Genres luokka
+src/dLiteGUI/Mood.java = Mood luokka
+src/dLiteGUI/Moods.java = Moods luokka
+src/dLiteGUI/SongLibrary.java = SongLibrary luokka
+src/dLiteGUI/Track.java = Track luokka
+src/dLiteGUI/Tracks.java = Tracks luokka
+
+webLibrary/WebContent/NewTrack.jsp = Jsp uuden kappaleen lis‰ykselle
+webLibrary/WebContent/Track.jsp = Jsp kappaleen muokkaukselle
+webLibrary/WebContent/Songs.jsp = Jsp kirjaston selaamiseen
+webLibrary/src/webLibrary/ComboBox.java = Valintalaatikko
+webLibrary/src/webLibrary/EditBox.java = Tekstikentt‰
+webLibrary/src/webLibrary/LibraryHTML.java = Huolehtii kirjaston yll‰pidosta

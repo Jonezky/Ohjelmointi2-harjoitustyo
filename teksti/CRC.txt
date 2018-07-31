@@ -1,0 +1,220 @@
+﻿|------------------------------------------------------------------------|
+|  Luokan nimi: SongLibrary                          |   Avustajat:      |
+|-------------------------------------------------------------------------
+| Vastuualueet: Huolehtii yhteistyöstä luokkien      |   Tracks          | 
+|   välillä.                                         |   Artists         | 
+|   -Kasaa luokilta kerättyjen tietojen perusteella  |   Genres          | 
+|	käyttäjälle palautettavan String taulukon.       |   Moods           | 
+| 	-Osaa lukea ja kirjoittaa tiedostoon.            |                   |
+|   -Osaa etsiä tiedostosta			                 |  		         | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+|  Luokan nimi: Tracks                               |   Avustajat:      |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|  -Osaa lajitella ja hakea kappaleita               |   Track            | 
+|  -Tieto kappaleleiden määrästä                     |                   | 
+|   -Luo uuden  kappale olion                        |                   | 
+|  -Tieto seuraavasta "vapaasta paikasta", mihin     |        	         | 
+|   seuraava kappale voidaan lisätä                  |		             | 
+|  - Tietää seuraavan lisättävän id                  |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+|  Luokan nimi: DliteGui                             |   Avustajat:      |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|              -Käyttöliittymä                       |       	         | 
+|   -Ottaa vastaan käyttäjän antamia syötteitä ja    |                   | 
+|   asettaa ne olioihin Dlite swingin luettaviksi    |                   | 
+| 	 -Vastaa näyttöön tulevasta infosta          |       	         | 
+|   						     |		         | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+|  Luokan nimi: DliteSwing                           |   Avustajat:      |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|  -Lukee Guin kirjoittamia kenttiä ja lähettää ne   |  Library          | 
+|   eteenpäin                                        |                   | 
+|	-Kirjoittaa olioihin joita gui lukee         |                   | 
+| -pyytää libraryn antaman string listan ja kijoittaa|        	         | 
+|   sen kentään guin lueattavaksi           	     |		         | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+|  Luokan nimi: Track                                 |    Avustajat:     |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|  -Luo uuden kappaleen merkkijonosta                |                   | 
+|  -Kertoo tiedot itsestänsä pyydettäessä            |                   | 
+|	-Osaa muutta omia tietojaan pyydettäessä         |                   |
+| 	-Osaa luoda olion annetun Stringin perusteella	 |      	         | 
+|   -Osaa tarkastaa syötteen oikeellisuuden			 |   		         | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+|  Luokan nimi: Artists                              |  Avustajat:       |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+| -Osaa lajitella ja hakea Artisteja                 |    Artist         | 
+| -Tieto artistien  määrästä                         |                   | 
+|  -Luo uuden  artisti olion                         |                   | 
+| -Tieto seuraavasta "vapaasta paikasta", mihin      |        	         | 
+|  seuraava artisti voidaan lisätä                   |      	         | 
+| -Tieto seuraavasta vapaasta ID:stä                 |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+|  Luokan nimi: Artist                               |  Avustajat:       |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|   -Vastaanottaa ja lähettää kysyttäessä tietojaan  |       	         | 
+|                                                    |                   | 
+| 	-Osaa luoda olion annetun Stringin perusteella	 |      	         | 
+|   -Osaa tarkastaa syötteen oikeellisuuden			 |   		         | 
+|   						                         |       	         | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+|  Luokan nimi: Moods                                |  Avustajat:       |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |   mood            | 
+|   -Osaa lajitella ja hakea moodeja                 |       	         | 
+|   -Tieto moodien määrästä                          |                   | 
+|	 -Luo uuden  mood olion                      |                   | 
+| 	-Tieto seuraavasta "vapaasta paikasta", mihin|        	         | 
+|    seuraava mood voidaan lisätä                    |		         | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+|  Luokan nimi: Genres                               |  Avustajat:       |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|   -Osaa lajitella ja hakea genrejä                 |     genre         | 
+|   -Tieto moodien määrästä                          |                   | 
+|	 -Luo uuden  genre olion                         |                   | 
+| 	-Tieto seuraavasta "vapaasta paikasta", mihin    |        	         | 
+|    seuraava genre voidaan lisätä                   |	     	         | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+|  Luokan nimi: Genre                                |  Avustajat:       |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|   -Vastaanottaa ja lähettää kysyttäessä tietojaan  |                   | 
+|                                                    |                   | 
+| 	-Osaa luoda olion annetun Stringin perusteella	 |      	         | 
+|   -Osaa tarkastaa syötteen oikeellisuuden			 |   		         | 
+|                                                    |		             | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+|  Luokan nimi: mood                                 |  Avustajat:       |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|   -Vastaanottaa ja lähettää kysyttäessä tietojaan  |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+| 	-Osaa luoda olion annetun Stringin perusteella	 |      	         | 
+|   -Osaa tarkastaa syötteen oikeellisuuden			 |   		         | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
